@@ -6,4 +6,8 @@ contract MockErc20 is ERC20 {
         string memory name,
         string memory symbol
     ) ERC20(name, symbol, 18) {}
+
+    function mint(address to, uint amount) public {
+        _mint(to, amount);
+    }
 }
