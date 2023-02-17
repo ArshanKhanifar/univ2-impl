@@ -1,0 +1,11 @@
+{
+  "name": "v3-impl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "arshan <arshankhanifar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.8.4",
+    "prettier-plugin-solidity": "^1.1.2"
+  }
+}
